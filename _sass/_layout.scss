@@ -72,6 +72,7 @@ footer {
 header {
     a {
         color: #c1c1c1;
+        text-shadow: 1px 0 #793b16, -1px 0 #793b16, 0 1px #793b16, 0 -1px #793b16;
         
         &.active {
 	        border-bottom: 2px solid;
@@ -79,6 +80,7 @@ header {
         
         &:hover {
 			color: #fefefe;
+			text-shadow: 1px 0 #793b16, -1px 0 #793b16, 0 1px #793b16, 0 -1px #793b16;
 		}
     }
 }
