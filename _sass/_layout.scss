@@ -22,14 +22,12 @@ header {
 	background-position: center center;   //calc(50% - 40px) 175px;
 	height: auto;//420px;
 	box-sizing: border-box;
+	color: #fff;
 
 	.container {
 		text-align: center;
 	}
-	
-	h1 {
-	    color: #fff;
-	}
+
 	
 	@media (min-width: $mobile-break) {
 /*
@@ -62,7 +60,6 @@ header {
 	}
 }
 
-header,
 footer {
 	a {
 		color: #3A4145;
