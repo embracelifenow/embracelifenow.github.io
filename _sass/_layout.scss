@@ -71,7 +71,7 @@ footer {
 
 header {
     a {
-        color: #c1c1c1;
+        color: #fff;
         text-shadow: 1px 0 #793b16, -1px 0 #793b16, 0 1px #793b16, 0 -1px #793b16;
         
         &.active {
@@ -79,7 +79,7 @@ header {
         }
         
         &:hover {
-			color: #fefefe;
+			color: #fbed85;
 			text-shadow: 1px 0 #793b16, -1px 0 #793b16, 0 1px #793b16, 0 -1px #793b16;
 		}
     }
