@@ -22,7 +22,6 @@ header {
 	background-position: center center;   //calc(50% - 40px) 175px;
 	height: auto;//420px;
 	box-sizing: border-box;
-	color: #fff;
 
 	.container {
 		text-align: center;
@@ -70,8 +69,14 @@ footer {
 	}
 }
 
-header a.active {
+header {
+    a {
+        color: #fff;
+        
+        &.active {
 	border-bottom: 2px solid;
+        }
+    }
 }
 
 header,
