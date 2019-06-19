@@ -20,14 +20,14 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;   //calc(50% - 40px) 175px;
-	height: auto;//420px;
+	height: 80vh;//420px;
 	box-sizing: border-box;
 
 	.container {
 		text-align: center;
 	}
 	
-	.main-hero {
+	&.main-hero {
 			height: 100vh;
 		}
 
