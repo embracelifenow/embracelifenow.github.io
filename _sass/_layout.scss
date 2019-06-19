@@ -26,18 +26,22 @@ header {
 	.container {
 		text-align: center;
 	}
+	
+	.main-hero {
+			height: 100vh;
+		}
 
 	
 	@media (min-width: $mobile-break) {
 /*
 		background-size: contain;
 		background-position: calc(50% - 300px) calc(100% + 20px);
-*/
+
 		&.main-hero {
 			height: 100vh;
 			//background-position: calc(50% - 350px) calc(100% + 20px);
 		}
-
+*/
 		.container {
 			text-align: right;
 		}
