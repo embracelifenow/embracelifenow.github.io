@@ -67,7 +67,7 @@ header {
     height: 20vh;
     
     &:hover {
-        background-image: {{ site.baseurl }}/logo-sandybrown.svg"/;
+        background-image: url({{ site.baseurl }}/logo-sandybrown.svg"/);
     }
 }
 
