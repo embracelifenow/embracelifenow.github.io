@@ -51,6 +51,12 @@ h1 {
 	font-size: 6.5rem;
 	line-height: 80px;
 	margin: 0 -10px 0 0;
+	
+	&header {
+	    @media (min-width: 854px) {
+	        font-size: 7.5rem;
+	    }
+	}
 
 	@media (min-width: $mobile-break) {
 		line-height: 100px;
