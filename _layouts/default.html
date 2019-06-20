@@ -27,7 +27,9 @@
 	<body>
 		<header style="background-image: url('{% include relative-src.html src=page.background_image_path %}');" {% if page.large_header %}class="main-hero"{% endif %}>
 		    {% if page.large_header %}
-				<img src="{{ site.baseurl }}/logo.svg"/ class="logo">
+		    <div class="container">
+		        <img src="{{ site.baseurl }}/logo.svg"/ class="logo">
+		    </div>
 			{% endif %}
 			<div class="container">
 				<h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
