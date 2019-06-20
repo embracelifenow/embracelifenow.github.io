@@ -64,17 +64,19 @@ header {
 }
 
 .logo-sandybrown {
-    position: absolute;
-    height: 20vh;
-}
-
-.logo {
     position: relative;
     height: 20vh;
     
     &:hover {
         visibility: hidden
     }
+}
+
+.logo {
+    position: absolute;
+    height: 20vh;
+    
+    
 }
 
 footer {
