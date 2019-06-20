@@ -75,7 +75,9 @@ header {
     &:hover {
         visibility: hidden
         
-        &:after {
+    }
+    
+    &:after {
             content: '';
             position: absolute;
             left: 0;
@@ -85,7 +87,6 @@ header {
             border: 3px solid;
             box-sizing: border-box;
         }
-    }
     
 }
 
