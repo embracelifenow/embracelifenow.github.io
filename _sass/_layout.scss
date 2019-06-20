@@ -30,6 +30,10 @@ header {
 	&.main-hero {
 			height: 100vh;
 		}
+		
+	.logo {
+	    height: auto;
+	}
 
 	
 	@media (min-width: $mobile-break) {
