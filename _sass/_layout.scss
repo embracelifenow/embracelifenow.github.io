@@ -63,7 +63,13 @@ header {
 	}
 }
 
+.logo-sandybrown {
+    position: relative;
+    height: 20vh;
+}
+
 .logo {
+    position: absolute;
     height: 20vh;
     
     &:hover {
