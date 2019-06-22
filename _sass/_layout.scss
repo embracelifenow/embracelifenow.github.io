@@ -28,7 +28,8 @@ header {
 	}
 	
 	&.main-hero {
-			height: 100vh;
+			height: auto;
+			margin-top: auto;
 		}
 	
 	@media (min-width: $mobile-break) {
