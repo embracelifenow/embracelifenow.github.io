@@ -37,7 +37,7 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /uploads/backlit-balance-beach-268134.jpg
+      background_image_path: /uploads/ocean-header.jpg
       image: /uploads/building.jpg
   -
     scope:
