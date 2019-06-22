@@ -67,11 +67,6 @@ header {
 }
 
 .logo-color {
-    position: absolute;
-    height: 20vh;
-}
-
-.logo {
     position: relative;
     height: 20vh;
     
@@ -79,7 +74,17 @@ header {
         //visibility: hidden;
         opacity: 0;
         filter: alpha(opacity=0);
-        
+}
+
+.logo {
+    position: absolute;
+    height: 20vh;
+  /* 
+    &:hover {
+        //visibility: hidden;
+        opacity: 0;
+        filter: alpha(opacity=0);
+   */     
     }
     /*
     &:after {
