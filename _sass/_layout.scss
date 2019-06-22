@@ -22,7 +22,7 @@ header {
 	background-position: center;   //calc(50% - 40px) 175px;
 	height: auto;//420px;
 	box-sizing: border-box;
-	padding-bottom: 30px;
+    bottom: 0;
 
 	.container {
 		text-align: center;
@@ -106,7 +106,7 @@ footer {
 
 header {
     a {
-        color: #fff;
+        color: #fefefe;
         text-shadow: 1px 0 #793b16, -1px 0 #793b16, 0 1px #793b16, 0 -1px #793b16;
         
         &.active {
