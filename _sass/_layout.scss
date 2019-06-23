@@ -33,10 +33,14 @@ header {
 		height: auto;
 		//overflow-y: auto;
 		//padding-bottom: 30px;
+		
+		@media (min-width: $mobile-break) {
+	        background-position: 50% 65%;
+		    }
 		}
 	
 	@media (min-width: $mobile-break) {
-	    background-position: 50% 65%;
+	    //background-position: 50% 65%;
 /*
 		background-size: contain;
 		background-position: calc(50% - 300px) calc(100% + 20px);
