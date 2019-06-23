@@ -30,11 +30,12 @@ header {
 	
 	&.main-hero {
 	    background-position: 50% 20%;
-		height: auto;
+		height: 100vh;
 		//overflow-y: auto;
 		//padding-bottom: 30px;
 		
 		@media (min-width: $mobile-break) {
+		    height: auto;
 	        background-position: 50% 65%;
 		    }
 		}
