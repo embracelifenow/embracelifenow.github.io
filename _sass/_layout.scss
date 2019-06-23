@@ -34,11 +34,21 @@ header {
 		//overflow-y: auto;
 		//padding-bottom: 30px;
 		
-		@media (max-width: $mobile-break) {
+		@media (max-width: 854px) {
+    		height: 100vh;
+	        background-position: 50% 65%;
+    	    }
+		    
+		@media (max-width: 758px) {
+    		height: 100vh;
+	        background-position: 50% 70%;
+    	    }
+    	    
+    	@media (max-width: $mobile-break) {
 		    height: auto;
 	        background-position: 50% 40%;
 		    }
-		}
+	    }
 
 
 	nav {
