@@ -6,10 +6,10 @@
       link: /services/
     - name: Schedule
       link: /schedule/
-    - name: Resources
-      link: /resources/
-    - name: Q & A
-      link: /qna/
+   # - name: Resources
+   #   link: /resources/
+   # - name: Q & A
+   #   link: /qna/
     - name: About
       link: /about/
     - name: Contact
