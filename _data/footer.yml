@@ -4,12 +4,12 @@
       link: /
     - name: Services
       link: /services/
-    - name: Private Sessions 
-      link: /sessions/
-   # - name: Resources
-   #   link: /resources/
-   # - name: Q & A
-   #   link: /qna/
+    - name: Schedule
+      link: /schedule/
+    - name: Resources
+      link: /resources/
+    - name: Q & A
+      link: /qna/
     - name: About
       link: /about/
     - name: Contact
