@@ -136,13 +136,14 @@ header {
         //bottom: 0;
         
         &.active {
-            color: #008B8B;
+            //color: #008B8B;
+            color: #fff;
             text-shadow: 1px 0 #000000, -1px 0	#000000, 0 1px	#000000, 0 -1px	#000000;
 	        border-bottom: 2px solid black;
         }
         
         &:hover {
-			color: #008B8B;
+			color: #fff;
 			text-shadow: 1px 0	#000000, -1px 0	#000000, 0 1px	#000000, 0 -1px	#000000;
 		}
     }
