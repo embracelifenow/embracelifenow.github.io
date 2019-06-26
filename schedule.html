@@ -17,26 +17,3 @@ navigation_order: 2
 <div id="SOIDIV_MattTitchenal" data-so-page="MattTitchenal" data-height="550" data-style="border: 1px solid #d8d8d8; min-width: 290px; max-width: 900px;" data-psz="00"></div>
 <script type="text/javascript" src="https://cdn.oncehub.com/mergedjs/so.js"></script>
 <!-- ScheduleOnce embed END -->
-
-<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Update Staff Members</a></p>
-
-<ul class="staff-list">
-	{% for member in site.staff_members %}
-		<li class="staff">
-			<div class="staff-details">
-				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120">
-				</div>
-				<ul class="staff-info">
-					<li>{{ member.name }}</li>
-					<li><small>{{ member.credentials }}</small></li>
-					<li><a href="tel:{{ site.data.company.contact_phone_number }}">{{ site.data.company.contact_phone_number }}</a>  ext {{ member.phone_extension }}</li>
-				</ul>
-			</div>
-
-			<div class="staff-bio">
-				<p>{{ member.content | markdownify }}</p>
-			</div>
-		</li>
-	{% endfor %}
-</ul>
