@@ -60,10 +60,16 @@
 					<a class="button" style="color: #008B8B" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='#008B8B'" href="{{ site.baseurl }}/schedule/">Click Here</a> to schedule a free 30 minute diagnostic session. We will get to know each other and I will explain the tools I have to help you embrace your life now.
 				</p>
 			</section>
+		{% elsif page.call_to_action == 'Email List' %}
+			<section class="quote-section">
+				<p class="container editable">
+					<a class="button" style="color: #008B8B" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='#008B8B'" href="{{ site.baseurl }}/schedule/">Click Here</a> sign up for my email list. I will remind about the free diagnostic session before it is taken down. Also I you will get new resources as they are added to the <a href="{{ site.baseurl }}/resources/">resources</a> section of the website.
+				</p>
+			</section>
 		{% else %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/advice/">Read our published advice</a> for an introduction and quick tips on various areas of the law.
+					<a class="button" style="color: #008B8B" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='#008B8B'" href="{{ site.baseurl }}/resources/">Click Here</a> for resources to learn about and explore energy healing.
 				</p>
 			</section>
 		{% endif %}
