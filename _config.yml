@@ -37,7 +37,7 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /uploads/ocean-header.jpg
+      background_image_path: /uploads/ocean-header-compressed.jpg
       image: /uploads/building.jpg
   -
     scope:
